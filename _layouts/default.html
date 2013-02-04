@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>{{page.pagetitle}} | [SITE]</title>
+		<meta name="description" content="{{page.description}}">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="/static/css/main.css">
+
+		<script>with(document.documentElement){className=className.replace(/\bno-js\b/,'js')}</script>
+
+		<!-- <script src="/static/js/vendor/modernizr-2.6.2.min.js"></script> -->
+		<!--[if lt IE 9]><script src="/static/js/vendor/html5shiv.js"></script><![endif]-->
+	</head>
+	<body>
+
+		{{content}}
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/static/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+		<script src="/static/js/main.js"></script>
+
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<!-- 
+		<script>
+		var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g,s)}(document,'script'));
+		</script>
+		-->
+	</body>
+</html>
