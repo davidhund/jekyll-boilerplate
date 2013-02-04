@@ -1,0 +1,15 @@
+# Ignore the following files/folders
+*.tmp
+*.bak
+*.psd
+*.zip
+*.rar
+*.tar
+*.dmg
+*.exe
+*.sql
+*.log
+.DS_Store
+.DS_Store?
+Icon?
+Thumbs.db
