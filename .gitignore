@@ -3,6 +3,9 @@
 
 # SPECIFIC FOR THIS PROJECT #
 ###################
+# gh-pages needs no _site — it creates it
+_site/
+.sass-cache
 node_modules
 
 # Compiled source #
